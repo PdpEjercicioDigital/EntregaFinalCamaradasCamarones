@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <!--ESTE ES EL ESTILO CSS DE BOOTSTRAP-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+        <!--ESTE ES EL ESTILO CSS DE BOOTSTRAP ICONS-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+        <!--ESTE ES EL ESTILO CSS PROPIO-->
+        <link rel="stylesheet" href="style.css" />
+        <!--CAMBIEN EL TÍTULO QUE SIGUE-->
+        <title>Ciudades y Comunidades Sostenibles</title>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="row h-50">
+                    <div class="col-12 text-center my-auto">
+                        <h1>Ciudades y Comunidades Sostenibles </h1>
+                        <h2>Objetivo 11 Naciones Unidas de Desarrollo Sostenible</h2>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main role="main" class="pb-5">
+            <!--ESTE ES EL ARTÍCULO CON VIDEO DE YOUTUBE-->
+            <article>
+                <div class="container">
+                    <div class="row py-5 align-items-center">
+                        <div class="col-md-6 col-lg-7 order-md-last">
+                            <div class="ratio ratio-16x9">
+                                <iframe width="560" height="315" src="https://www.youtube.com/embed/Xp4LMbRV8_0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-5 p-4 order-md-first">
+                            <h3><i class="bi bi-globe2"></i> Objetivo</h3>
+
+                            <p>
+                                Se busca generar ciudades y asentamientos humanos inclusivos, seguros, resilientes y sostenibles.
+                            </p>
+                            <p class="small d-none d-lg-block">
+                                En un futuro urbano, las soluciones a la pobreza, el cambio climático, la salud y la educación, deben encontrarse en la vida urbana.
+                                Para más información clickea en el viedo que hay a continuación.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!--ESTE ES EL ARTÍCULO CON GRÁFICO FIGURATIVO (JPG, PNG o GIF)-->
+            <article>
+                <div class="container">
+                    <div class="row py-5 align-items-center">
+                        <div class="col-md-6 col-lg-7">
+                            <img loading="lazy" class="img-fluid bg-light d-md-none" src="img/arboles-1x1.png" alt="describa la imagen" />
+                            <img loading="lazy" class="img-fluid bg-light d-none d-md-block d-lg-none" src="img/arboles-4x3.png" alt="describa la imagen" />
+                            <img loading="lazy" class="img-fluid bg-light d-none d-lg-block" src="img/arboles-16x9.png" alt="describa la imagen" />
+                        </div>
+                        <div class="col-md-6 col-lg-5 p-4">
+                            <h3> <i class="bi bi-card-list"></i> Algunas metas</h3>
+                            <p>
+                                11.1  Acceso a viviendas y servicios básicos adecuados. Mejorar los barrios marginales.
+                            </p>
+
+                            <p>
+                                11.2  Acceso a sistemas de transporte seguros y sostenible. Mejorar la seguridad vial.
+                            </p>
+
+                            <p>
+                                11.6  Reducir el impacto ambiental negativo, prestando atención a la calidad del aire y la gestión de los desechos.
+                            </p>
+                            </p>
+                                Información obtenida de la página oficial de las <a href="https://www.un.org/sustainabledevelopment/es/cities/">Naciones Unidas.</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!--ESTE ES EL ARTÍCULO CON GRÁFICO MIXTO (SVG)-->
+            <article>
+                <div class="container">
+                    <div class="row py-5 align-items-center">
+                        <div class="col-md-6 col-lg-7 order-md-last">
+                            <svg enable-background="new 0 0 665 375" version="1.1" viewBox="0 0 665 375" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                <image transform="matrix(.5 0 0 .5 0 0)" width="1330" height="750" overflow="visible" xlink:href="img/Gráfico mixto.svg"></image>
+                            </svg>
+                        </div>
+                        <div class="col-md-6 col-lg-5 p-4 order-md-first">
+                            <h3><i class="bi bi-geo-alt"></i> En Chile</h3>
+                            <p>
+                                En Septiembre del 2015 Chile, como parte de 193 países miembros de la Organización de Naciones Unidas (ONU), adoptó la Agenda 2030 para el Desarrollo Sostenible.
+                            </p>
+                            <p>
+                                Las estadísticas de ciudades sostenibles han ido variando a favor de las personas y del objetivo.
+                            </p>
+                            <p class="small d-none d-lg-block">
+                                En los gráficos se pueden ver algunos de los últimos registros de datos que hay.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!--ESTE ES EL ARTÍCULO CON GRÁFICO NO FIGURATIVO (CHARTS.JS)-->
+            <article>
+                <div class="container">
+                    <div class="row py-5 align-items-center">
+                        <div class="col-md-6 col-lg-7">
+                            <canvas id="nuestroGrafico" class="bg-light" width="16" height="9"></canvas>
+                        </div>
+                        <div class="col-md-6 col-lg-5 p-4">
+                            <h3><i class="bi bi-lightning-charge"></i> Energía y Contaminación</h3>
+                            <p>
+                                Aunque las ciudades ocupan solo el 3% de la superficie terrestre, representan aproximadamente:
+                            </p>
+                            <p>
+                                70% Consumo de energía
+                            </p>
+                            <p>
+                                70% Emisiones de carbono mundiales
+                            </p>
+                            <p>
+                                60% Uso de recursos
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <!--ESTE ES EL CIERRE-->
+            <article class="my-5">
+                <div class="container">
+                    <div class="row py-5">
+                        <div class="col-10 mx-auto mb-5 text-center">
+                            <p class="py-3"><i class="bi bi-rainbow"></i></p>
+                            <p class="lead pb-5">
+                                Es necesario trabajar para seguir mejorando las estadísticas y de esta manera asegurar que la población pueda vivir en lugares dignos y de buenas condiciones.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </main>
+        <!--ESTOS DEBERÍAN SER TRES VÍNCULOS A MÁS INFORMACIÓN-->
+        <aside class="py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center py-3">
+                        <h3>Más información</h3>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card shadow-sm">
+                            <img src="img/Link1.png" class="card-img-top" alt="describa la imagen" />
+                            <div class="card-body">
+                                <p class="card-text">En 2015, Chile como parte de la Organización de Naciones Unidas (ONU), suscribió y comprometió así el cumplimiento de un nuevo programa de desarrollo sostenible. <a href="http://www.chileagenda2030.gob.cl/agenda-2030/sobre-la-agenda" target="_blank">Visite…</a>.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card shadow-sm">
+                            <img src="img/Link2.png" class="card-img-top" alt="describa la imagen" />
+                            <div class="card-body">
+                                <p class="card-text">Informate sobre los otros objetivos de la Agenda 2030 propuestos por la ONU para el desarrollo sostenible. <a href="http://www.chileagenda2030.gob.cl/agenda-2030/consejo-nacional-secretaria-tecnica" target="_blank">Visite…</a>.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card shadow-sm">
+                            <img src="img/Link3.png" class="card-img-top" alt="describa la imagen" />
+                            <div class="card-body">
+                                <p class="card-text">Conoce los diferentes grupos de trabajos encargados de cumplir los objetivos de la Agenda 2030. <a href="http://www.chileagenda2030.gob.cl" target="_blank">Visite…</a>.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <!--ESTE ES EL FOOTER -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 py-3 d-flex justify-content-between align-items-center small">
+                        <a href="index.html" class="link-light fw-bold">index.html</a>
+                        <a href="surface.html" class="link-light">surface.html</a>
+                        <a href="#nuestroModal" data-bs-toggle="modal" class="link-light"><i class="bi bi-star"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Y ESTO ESTÁ ESCONDIDO, CONTIENE LA PRESENTACIÓN DEL EQUIPO -->
+        <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="nuestroModal">
+            <div class="modal-dialog modal-xl">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h4 class="modal-title">Este es muetro grupo: Camaradas Camarones</h4>
+                        <i class="bi bi-x-circle-fill" data-bs-dismiss="modal" aria-label="Close"></i>
+                    </div>
+                    <div class="modal-body row" id="team"><!--esto queda vacío, por ahora--></div>
+                </div>
+            </div>
+        </div>
+        <!--NO BORRAR ESTA BIBLIOTECA DE JAVASCRIPT-->
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.4.1/chart.min.js"
+            integrity="sha512-5vwN8yor2fFT9pgPS9p9R7AszYaNn0LkQElTXIsZFCL7ucT8zDCAqlQXDdaqgA1mZP47hdvztBMsIoFxq/FyyQ=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <!--ESTE ES EL SCRIPT PARA EL GRÁFICO-->
+        <script>
+            var ctx = document.getElementById("nuestroGrafico");
+            var nuestroGrafico = new Chart(ctx, {
+                type: "bar",
+                data: {
+                    labels: ['Consumo de energía', 'Emisiones de carbono', 'Uso de recursos'],
+                    datasets: [
+                        {
+                            label: "Energía y contaminación",
+                            data: [70, 70, 30, 100],
+                            backgroundColor: [
+      'rgba(255, 172, 82, 0.8)',
+      'rgba(255, 213, 168, 0.8)',
+      'rgba(255, 232, 207, 0.8)',
+    ],
+    borderColor: [
+      'rgb(255, 99, 132)',
+      'rgb(255, 159, 64)',
+      'rgb(255, 205, 86)',
+    ],
+                            borderWidth: 1,
+                        },
+                    ],
+                },
+                options: {
+                    scales: {
+                        y: {
+                            beginAtZero: true,
+                        },
+                    },
+                },
+            });
+        </script>
+        <!--NO BORRAR ESTA BIBLIOTECA DE JAVASCRIPT-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <!--ESTE ES EL SCRIPT PARA EL MODAL-->
+        <script>
+            // Tienen que editar los elementos dentro de la siguiente variable
+            var integrantes = [
+                { nombre: "Fernanda Bravo", descriptor: "Color", foto: "img/fer avatar.png" },
+                { nombre: "Santiago Contreras", descriptor: "Código", foto: "img/santi avatar.png" },
+                { nombre: "Catalina Henrríquez", descriptor: "Textos y fuentes tipográficas", foto: "img/cata avatar.png" },
+                { nombre: "Rodrigo López", descriptor: "Textos y fuentes tipográficas", foto: "img/rodri avatar.png" },
+                { nombre: "Beatriz Luna", descriptor: "Código", foto: "img/bea avatar.png" },
+                { nombre: "Catherine Pizarro", descriptor: "Gráficos", foto: "img/caty avatar.png" },
+                
+            ];
+            // No es necesario que editen lo que sigue
+            for (let x = 0; x < integrantes.length; x++) {
+                document.querySelector("#team").innerHTML +=
+                    '<div class="col-md-6 col-xl-3"><div class="card mb-3 shadow-sm"><div class="row no-gutters"><div class="col-md-5"><img src="' +
+                    integrantes[x].foto +
+                    '" class="card-img" alt="describir imagen"></div><div class="col-md-7"><div class="card-body"><h6 class="card-title">' +
+                    integrantes[x].nombre +
+                    '</h6><p class="card-text">' +
+                    integrantes[x].descriptor +
+                    "</p></div></div></div></div></div>";
+            }
+        </script>
+    </body>
+</html>
